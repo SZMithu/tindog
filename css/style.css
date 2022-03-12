@@ -1,0 +1,145 @@
+:root {
+  --headcolor: #ff4c68;
+}
+
+body {
+  font-family: "Montserrat";
+}
+#title {
+  background-color: #ff4c68;
+  /* height: 90vh; */
+  overflow: hidden;
+  color: #fff;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.but_hover:hover{
+  background-color: #000;
+}
+
+/* Nav */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Down-Button */
+.down_btn {
+  margin: 5% 3% 5% 0;
+}
+/* Title-Image */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+
+  }
+  .img_row{
+    position: relative;
+  }
+.rotate_img {
+  position: absolute;
+  right: 15%;
+  transform: rotate(25deg);
+   width: 30%;
+}
+/* Feature */
+
+#features .col-lg-4 {
+  padding: 5%;
+}
+.fa_color {
+  color: #ef8172;
+}
+
+.fa_color:hover {
+  color: var(--headcolor);
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+#testimonials h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Carosooul */
+.caro_img {
+  width: 10%;
+}
+
+/* Press */
+.press_section {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press_img {
+  margin: 20px 20px 30px;
+  width: 15%;
+}
+/* Pricing */
+#pricing {
+  margin: 100px;
+}
+.pr_col{
+  padding: 3% 2%;
+}
+
+.price_heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.price_subheading {
+  padding: 1% 2% 3%;
+}
+
+/* Cta */
+#cta{
+    background-color: #ff4c68;
+}
+.text_cta {
+  font-family: "montserrat-Black",sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+@media screen and (max-width:992px){
+
+  .rotate_img {
+  position: static;
+  transform: rotate(0);
+   width: 60%;
+}
+}
